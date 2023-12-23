@@ -1,0 +1,97 @@
+:root {
+    --hover: #03A9F4;
+    --nav: #7D7D7D;
+    --caption: #B4AD9E;
+    --text: #626262;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+    color: var(--text);
+}
+.header {
+    padding: 70px 0;
+}
+.nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 99px;
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul,
+p,
+h2,
+button {
+    padding: 0;
+    margin: 0;
+}
+
+img,
+button {
+    display: block;
+}
+
+.container {
+    width: 936px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.card-list_img {
+    margin-bottom: 62px;
+}
+
+
+.nav-list_link {
+    color: var(--nav);
+}
+
+.nav-list_link:hover {
+    color: var(--hover);
+}
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 64px;
+    row-gap: 130px;
+}
+.card-list_item {
+    width: 420px;
+}
+
+.card-list_text {
+    color: var(--caption);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+.card-list_title {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.button {
+    color: var(--text);
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    line-height: normal;
+    font-weight: 400;
+    width: 165px;
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid var(--text);
+   /* padding: 20px 48px;*/
+    margin: 90px auto;
+    }
